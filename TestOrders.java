@@ -26,6 +26,12 @@ public class TestOrders {
         order5.addItem(item2);
         order1.setReady(true);
         System.out.println(order1.getStatusMessage());
+        System.out.println(order1.getOrderTotal());
+        order1.display();
+        order2.display();
+        order3.display();
+        order4.display();
+        order5.display();
         // Use this example code to test various orders' updates
     }
 }
